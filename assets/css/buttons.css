@@ -63,6 +63,12 @@
     padding: 0.5em 1.5em;
     color: #FFFFFF;
     cursor: pointer;
+    outline: none;
+}
+
+.icon-button:focus,
+.icon-button:hover{
+    border: 2px solid #FFFFFF;
 }
 
 .search-btn{

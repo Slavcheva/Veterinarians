@@ -1,0 +1,53 @@
+form {
+    background: #cb9393;
+    display: flex;
+    justify-content: center;
+}
+
+form input {
+    border: 2px solid #FFC500;
+    color: #313131;
+    background: #FFC500;
+    padding: 0.5em 1em;
+    outline: none;
+    flex-grow: 1;
+}
+
+form input:focus,
+form input:hover {
+    border: 2px solid #00BFCB;
+}
+
+form input::placeholder {
+    color: #FFFFFF;
+}
+
+.search-field form {
+    max-width: 8em;
+}
+
+form label {
+    flex-grow: 1;
+}
+
+.subscribe-field {
+    margin: 0 auto;
+}
+
+.subscribe-field form {
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+.subscribe-field form input {
+    background: #EAAD00;
+    border: 2px solid #EAAD00;
+
+}
+
+@media screen and (min-width: 600px) {
+    .subscribe-field form {
+        width: 100%;
+    }
+}
