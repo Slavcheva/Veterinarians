@@ -27,7 +27,7 @@
 
 .site-nav ul li a {
     display: block;
-    font-weight: bold;
+    font-weight: 500;
     background: #ffff;
     color: #EAAD00;
     border: 2px solid #EAAD00;
@@ -114,7 +114,7 @@ label.nav-toggle-btn {
 
 @media (min-width: 992px) {
     .site-nav ul {
-        gap: 2em;
+        gap: 0.5em;
     }
     .site-menu .search-field{
         display: block;
