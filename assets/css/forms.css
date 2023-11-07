@@ -43,9 +43,12 @@ form label {
 .subscribe-field form input {
     background: #EAAD00;
     border: 2px solid #EAAD00;
-
 }
 
+.subscribe-field form input:focus,
+.subscribe-field form input:hover {
+    border: 2px solid #00BFCB;
+}
 @media screen and (min-width: 600px) {
     .subscribe-field form {
         width: 100%;
