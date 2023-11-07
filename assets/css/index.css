@@ -1,5 +1,5 @@
 @import "typography.css";
-
+@import "header.css";
 
 body{
     background: #FFC500;
@@ -13,4 +13,10 @@ li{
 a{
     text-decoration: none;
     color: #FFFFFF;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 1em;
+    text-align: center;
 }

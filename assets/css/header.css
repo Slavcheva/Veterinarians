@@ -1,0 +1,124 @@
+/*Navigation*/
+.site-header .site-menu {
+    background: #EAAD00;
+}
+
+.site-header .site-menu .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: auto;
+}
+
+
+.site-nav ul {
+    flex-direction: column;
+    gap: 1em;
+    position: absolute;
+    right: 0;
+    width: 100vw;
+    text-align: center;
+    padding: 1.5em;
+    margin-top: 1.5em;
+    display: none;
+    background: #FFFFFF;
+}
+
+.site-nav ul li a {
+    display: block;
+    font-weight: bold;
+    background: #ffff;
+    color: #EAAD00;
+    border: 2px solid #EAAD00;
+    border-radius: 0.5em;
+    padding: 0.5em 1em;
+}
+
+.search-field {
+    display: none;
+}
+
+.nav-toggle {
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+}
+
+.fa-xmark {
+    display: none;
+}
+
+.nav-toggle:checked + label > .fa-xmark {
+    display: block;
+}
+
+.nav-toggle:checked + label > .fa-bars {
+    display: none;
+}
+
+.nav-toggle:checked + label + ul {
+    display: flex;
+    flex-direction: column;
+    z-index: 20;
+}
+
+label.nav-toggle-btn {
+    margin-left: auto;
+    font-size: 2em;
+}
+
+.site-logo img{
+    max-width: 70%;
+}
+
+@media (min-width: 600px) {
+
+    .nav-toggle-btn {
+        display: none;
+    }
+
+    .site-nav ul {
+        display: flex;
+        right: unset;
+        top: unset;
+        width: unset;
+        position: initial;
+        flex-direction: row;
+        background: transparent;
+        margin-top: 0;
+    }
+
+    .site-nav ul li a{
+        background: transparent;
+        opacity: 1;
+        padding: 0.5em 1em;
+        transition: 0.3s;
+        color: #FFFFFF;
+        font-weight: 500;
+        display: block;
+        outline: none;
+
+    }
+
+    .site-nav ul li a:focus,
+    .site-nav ul li a:hover {
+        border-color: #FFFFFF;
+    }
+
+
+
+    .site-logo img{
+        max-width: unset;
+    }
+}
+
+@media (min-width: 992px) {
+    .site-nav ul {
+        gap: 2em;
+    }
+    .site-menu .search-field{
+        display: block;
+    }
+}
