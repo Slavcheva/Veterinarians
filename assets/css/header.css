@@ -107,8 +107,6 @@ label.nav-toggle-btn {
         border-color: #FFFFFF;
     }
 
-
-
     .site-logo img{
         max-width: unset;
     }
@@ -120,5 +118,50 @@ label.nav-toggle-btn {
     }
     .site-menu .search-field{
         display: block;
+    }
+}
+
+
+/*Banner*/
+.site-banner{
+    position: relative;
+    background: #FFC500;
+    padding: 5em 2em;
+}
+
+.site-banner .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-banner .container > div{
+    flex: 0 1 100%;
+}
+
+.site-banner .img-wrapper:before {
+    padding-top: 143%;
+}
+
+@media (min-width: 600px) {
+    .site-banner .container{
+        text-align: left;
+    }
+    .site-banner .container > div{
+        flex: 0 1 50%;
+    }
+
+    .site-banner .container > div.section-image{
+        flex: 0 1 40%;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .site-banner h1 {
+        font-size: 2.8em;
     }
 }
