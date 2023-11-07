@@ -1,6 +1,9 @@
 @import "typography.css";
-@import "header.css";
 @import "elements.css";
+@import "buttons.css";
+@import "header.css";
+@import "forms.css";
+
 
 body{
     background: #FFC500;
@@ -28,5 +31,4 @@ a{
     max-width: 1200px;
     padding: 1em;
     text-align: center;
-    border: 1px solid blue;
 }
