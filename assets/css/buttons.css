@@ -17,11 +17,14 @@
     border-color:#FFC500 ;
 }
 
+.contacts-btn{
+    margin-right: 1em;
+}
+
 .contacts-btn,
 .buy-btn{
     background: #00BFCB;
     border: 2px solid #00BFCB;
-    margin-right: 1em;
 }
 
 .contacts-btn:focus,
@@ -35,6 +38,7 @@
 
 .buy-btn{
     border-radius: 5em;
+    margin: 0;
 }
 
 .site-banner .services-btn{
