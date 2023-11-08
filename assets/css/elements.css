@@ -47,6 +47,8 @@ ul.boxes-list span {
     overflow: hidden;
     max-width: 15em;
     margin: 1em auto;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -82,7 +84,6 @@ ul.boxes-list span {
 .box-title{
     font-weight: 500;
     font-size: 1.2em;
-    padding-bottom: 0.5em;
 }
 
 
