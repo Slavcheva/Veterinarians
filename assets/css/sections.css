@@ -55,47 +55,52 @@
     color: #EAAC00;
 }
 
-.team-section .box-title{
+.team-section .box-title {
     font-weight: 600;
 }
-.team-section .box-content{
+
+.team-section .box-content {
     font-weight: 300;
 }
-.team-section .position{
+
+.team-section .position {
     text-transform: uppercase;
     font-size: 0.9em;
 }
 
 /*Statistics Section*/
 .statistics-section {
-    background : center/cover no-repeat url("../images/statistic-bg.png");
+    background: center/cover no-repeat url("../images/statistic-bg.png");
     box-shadow: inset 0 0 0 50vw rgba(255, 195, 0, 0.8);
     filter: saturate(120%);
 }
 
-.statistics-section .box-title{
+.statistics-section .box-title {
     font-size: 1.8em;
     font-weight: 600;
 }
-.statistics-section .box-content{
+
+.statistics-section .box-content {
     font-size: 1.8em;
     padding: 0;
 }
-.statistics-section .box-icon{
+
+.statistics-section .box-icon {
     margin: 1em 0;
 }
 
 /*Prices Section*/
-.prices-section ul.boxes-list .box-title > span{
+.prices-section ul.boxes-list .box-title > span {
     display: inline-block;
     font-size: 1.4em;
 }
 
-.prices-section .box-title > span.price{
+.prices-section .box-title > span.price {
     margin: 0 1em 1em 0;
     position: relative;
 }
-.prices-section .box-title > span.price:before{
+
+.prices-section .box-title > span.price:before {
     display: inline-block;
     content: " ";
     border: 1.5px solid #FFFFFF;
@@ -106,6 +111,56 @@
     top: 45%;
 }
 
+
+/*Blog Section*/
+.blog-section {
+    background: #FFFFFF;
+    color: #2D2F41;
+}
+
+.blog-section ul.boxes-list > li {
+    border: 2px solid #D5D5D5;
+
+}
+
+.blog-section ul.boxes-list > li:nth-child(2) {
+    border: 2px solid transparent;
+    box-shadow: 0 4px 15px -1px rgba(0, 0, 0, 0.1);
+}
+
+.blog-section ul.boxes-list > li span {
+    padding: 0.3em 1em;
+    text-align: left;
+}
+
+.blog-section ul.boxes-list > li span.box-image {
+    padding: 0;
+    margin: -2px;
+    max-width: calc(100% + 4px);
+    overflow: hidden;
+
+}
+
+.blog-section ul.boxes-list > li span.box-image:before {
+    display: none;
+}
+
+.blog-section ul.boxes-list > li span.box-image:after {
+    padding-top: 97%;
+}
+
+.blog-section ul.boxes-list > li span.date {
+    text-transform: uppercase;
+    color: #00BFCB;
+    margin-bottom: 0.7em;
+}
+
+.blog-section ul.boxes-list > li > a {
+    text-align: left;
+    font-weight: 600;
+    display: block;
+    padding: 1em;
+}
 
 @media (min-width: 600px) {
     .cta-section.left .container {
