@@ -18,10 +18,71 @@
     flex: 0 1 100%;
 }
 
+.cta-section .img-wrapper {
+    width: calc(100% - 2em);
+}
+
 .cta-section .img-wrapper:before {
     padding-top: 95%;
 }
 
+.cta-section .img-wrapper:after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(229, 175, 0, 0.6);
+}
+
+.cta-section .section-image {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    text-align: right;
+    padding-bottom: 2em;
+}
+
+.cta-section .section-image:before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 50%;
+    left: 0;
+    bottom: 0;
+    background: #FFC500;
+}
+
+.play-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    background: #FFFFFF;
+    border-radius: 50%;
+    color: #FFC500;
+    width: 2em;
+    height: 2em;
+    border: 2px solid #FFFFFF;
+    cursor: pointer;
+    z-index: 20;
+}
+
+.cta-section.right .section-image {
+    justify-content: flex-start;
+}
+
+.cta-section.right .section-image:before {
+    right: 0;
+    left: unset;
+}
 
 /*Team Section*/
 .team-section {

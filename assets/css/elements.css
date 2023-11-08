@@ -3,7 +3,7 @@
     display: block;
     position: relative;
     overflow: hidden;
-    margin: auto;
+    /*margin: auto;*/
 }
 
 .img-wrapper:before {
@@ -30,7 +30,7 @@ ul.boxes-list {
     flex-wrap: wrap;
     gap: 2em;
     margin: 2em auto;
-    padding: 0 4em;
+    padding: 0 2em;
 }
 
 ul.boxes-list > li {
