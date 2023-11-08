@@ -38,9 +38,9 @@
 }
 
 .team-section .social-links a {
-    background: #FFC500;
+    background: #EAAC00;
     color: #FFFFFF;
-    border: 1px solid #FFC500;
+    border: 1px solid #EAAC00;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -52,7 +52,14 @@
 
 .team-section .social-links li a:hover {
     background: transparent;
-    color: #FFC500;
+    color: #EAAC00;
+}
+
+.team-section .box-title{
+    font-weight: 600;
+}
+.team-section .box-content{
+    font-weight: 300;
 }
 
 
