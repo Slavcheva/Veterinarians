@@ -1,11 +1,11 @@
 /*CTA Sections*/
-.cta-section{
+.cta-section {
     position: relative;
     background: #FFFFFF;
     color: #000000;
 }
 
-.cta-section .container{
+.cta-section .container {
     display: flex;
     flex-wrap: wrap;
     gap: 2em;
@@ -14,7 +14,7 @@
     justify-content: space-between;
 }
 
-.cta-section .container > div{
+.cta-section .container > div {
     flex: 0 1 100%;
 }
 
@@ -22,18 +22,54 @@
     padding-top: 95%;
 }
 
+
+/*Team Section*/
+.team-section {
+    background: #FFFFFF;
+    color: #000000;
+}
+
+
+.team-section .social-links {
+    display: flex;
+    gap: 0.5em;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+
+.team-section .social-links a {
+    background: #FFC500;
+    color: #FFFFFF;
+    border: 1px solid #FFC500;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.team-section .social-links li a:hover {
+    background: transparent;
+    color: #FFC500;
+}
+
+
 @media (min-width: 600px) {
     .cta-section.left .container {
         text-align: left;
     }
-    .cta-section .container > div{
+
+    .cta-section .container > div {
         flex: 0 1 50%;
     }
 
-    .cta-section .container > div.section-image{
+    .cta-section .container > div.section-image {
         flex: 0 1 40%;
     }
-    .cta-section.right .container{
+
+    .cta-section.right .container {
         text-align: right;
     }
 }
